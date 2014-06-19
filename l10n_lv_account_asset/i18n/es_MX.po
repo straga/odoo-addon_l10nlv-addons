@@ -1,0 +1,823 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * l10n_lv_account_asset
+# es_MX.po <agustin.cruz@openpy.mx>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-11 20:48+0000\n"
+"PO-Revision-Date: 2014-06-11 19:46-0500\n"
+"Last-Translator: es_MX.po <agustin.cruz@openpy.mx>\n"
+"Language-Team: Laptop\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#. module: l10n_lv_account_asset
+#: model:ir.model,name:l10n_lv_account_asset.model_account_asset_list_report
+msgid "Account Asset List Report"
+msgstr "Reporte de Lista de Cuentas de Activos"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.asset:0
+#: view:account.asset.category:0
+msgid "onchange_prorata(prorata)"
+msgstr ""
+
+#. module: l10n_lv_account_asset
+#: model:ir.actions.report.xml,name:l10n_lv_account_asset.report_account_asset_confirmation_l10n_lv_html
+msgid "Asset Confirmation"
+msgstr "Confirmación de Activos"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.list.report:0
+#: view:account.asset.turnover.report:0
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: l10n_lv_account_asset
+#: model:ir.actions.act_window,name:l10n_lv_account_asset.action_account_asset_turnover_report_menu_l10n_lv
+#: model:ir.ui.menu,name:l10n_lv_account_asset.menu_account_asset_turnover_report_menu_l10n_lv
+msgid "Account Asset Turnover"
+msgstr "Cuenta de Rotación de Activos"
+
+#. module: l10n_lv_account_asset
+#: field:account.asset.turnover.report,from_date:0
+msgid "Date From"
+msgstr "Fecha Desde"
+
+#. module: l10n_lv_account_asset
+#: model:ir.ui.menu,name:l10n_lv_account_asset.menu_assets_reports_l10n_lv
+msgid "Assets Reports"
+msgstr "Reportes de Activos"
+
+#. module: l10n_lv_account_asset
+#: field:account.asset.asset,confirmation_date:0
+msgid "Date Confirmed"
+msgstr "Fecha confirmación"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.list.report:0
+msgid "Print a list of Assets"
+msgstr "Imprimir lista de Activos"
+
+#. module: l10n_lv_account_asset
+#: model:ir.actions.report.xml,name:l10n_lv_account_asset.report_account_asset_card_l10n_lv_html
+msgid "Asset Card"
+msgstr "Ficha de Activo"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.set.close.date:0
+#: model:ir.model,name:l10n_lv_account_asset.model_account_asset_set_close_date
+msgid "Set Date Closed for Account Asset"
+msgstr "Establecer Fecha de cierre para la Cuenta de Activo"
+
+#. module: l10n_lv_account_asset
+#: field:account.asset.list.report,date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: l10n_lv_account_asset
+#: model:ir.model,name:l10n_lv_account_asset.model_account_asset_turnover_report
+msgid "Account Asset Turnover Report"
+msgstr "Reporte de la Cuenta de Rotación de Activos"
+
+#. module: l10n_lv_account_asset
+#: model:ir.actions.report.xml,name:l10n_lv_account_asset.report_account_asset_list_l10n_lv_html
+#: model:ir.ui.menu,name:l10n_lv_account_asset.menu_account_asset_list_report_menu_l10n_lv
+msgid "List of Assets"
+msgstr "Lista de Activos"
+
+#. module: l10n_lv_account_asset
+#: model:ir.actions.report.xml,name:l10n_lv_account_asset.report_account_asset_turnover_l10n_lv_html
+msgid "Asset Turnover"
+msgstr "Rotación de Activos"
+
+#. module: l10n_lv_account_asset
+#: field:account.asset.turnover.report,to_date:0
+msgid "Date To"
+msgstr "Fecha Hasta"
+
+#. module: l10n_lv_account_asset
+#: model:ir.model,name:l10n_lv_account_asset.model_account_asset_depreciation_line
+msgid "Asset depreciation line"
+msgstr "Depreciación lineal de activos"
+
+#. module: l10n_lv_account_asset
+#: model:ir.model,name:l10n_lv_account_asset.model_account_asset_category
+msgid "Asset category"
+msgstr "Categoría de Activo"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.set.close.date:0
+msgid "Choose Date."
+msgstr "Escoga Fecha."
+
+#. module: l10n_lv_account_asset
+#: field:account.asset.asset,close_date:0
+#: field:account.asset.set.close.date,close_date:0
+msgid "Date Closed"
+msgstr "Fecha Cerrado"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.turnover.report:0
+msgid "Choose period."
+msgstr "Escoga periodo."
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.set.close.date:0
+msgid "Set"
+msgstr "Estable"
+
+#. module: l10n_lv_account_asset
+#: model:ir.actions.act_window,name:l10n_lv_account_asset.action_account_asset_list_report_menu_l10n_lv
+msgid "Account Asset List"
+msgstr "Lista de Cuenta de Activos"
+
+#. module: l10n_lv_account_asset
+#: help:account.asset.asset,next_month:0
+#: help:account.asset.category,next_month:0
+msgid "Indicates that the first depreciation entry for this asset has to be done from the start of the next month following the month of the purchase date."
+msgstr ""
+"Indica que el primer asiento de depreciación para este activo tiene que "
+"realizarse en el inicio del mes siguiente a la fecha de compra."
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.turnover.report:0
+msgid "Print a Turnover report from Account Asset"
+msgstr "Imprimir Informe de Valoración de Activos"
+
+#. module: l10n_lv_account_asset
+#: field:account.asset.asset,next_month:0
+#: field:account.asset.category,next_month:0
+msgid "Compute from Next Month"
+msgstr "Calcular desde el Mes Siguiente"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.list.report:0
+#: view:account.asset.set.close.date:0
+#: view:account.asset.turnover.report:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: l10n_lv_account_asset
+#: view:account.asset.list.report:0
+msgid "Choose date."
+msgstr "Escoga fecha."
+
+#. module: l10n_lv_account_asset
+#: model:ir.model,name:l10n_lv_account_asset.model_account_asset_asset
+msgid "Asset"
+msgstr "Activo"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:9
+msgid "Asset turnover "
+msgstr "Rotación de Activos"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:10
+msgid "from "
+msgstr "desde "
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:11
+msgid "to "
+msgstr "hasta "
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:17
+msgid "Transaction"
+msgstr "Transacciones"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:18
+msgid "Carrying value"
+msgstr "Valor en libros"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:19
+msgid "Depreciation"
+msgstr "Depreciación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:20
+msgid "Residual value"
+msgstr "Valor residual"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:42
+msgid "Opening balances"
+msgstr "Saldos de aperturas"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:49
+msgid "Purchase"
+msgstr "Compra"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:56
+msgid "Assets depreciation"
+msgstr "Depreciación de activos"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:63
+msgid "Liquidation"
+msgstr "Liquidación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:69
+msgid "Total:"
+msgstr "Total:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:71
+msgid "Total change:"
+msgstr "Cambiio total:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:78
+msgid "End Period:"
+msgstr "Periodo final:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:98
+msgid "Values for report:"
+msgstr "Valores para reporte:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:99
+msgid "End Period:"
+msgstr "Periodo final:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:106
+msgid "Change:"
+msgstr "Cambio:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_turnover_report_html.mako:113
+msgid "End Period:"
+msgstr "Periodo final:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:9
+msgid "List of assets "
+msgstr "Lista de activos "
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:10
+msgid "to "
+msgstr "hasta "
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:17
+msgid "Carrying value"
+msgstr "Valor en libros"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:18
+msgid "Depreciation"
+msgstr "Depreciación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:19
+msgid "Residual value"
+msgstr "Valor residual"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:39
+msgid "Total account:"
+msgstr "Importe total:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:55
+msgid "Account:"
+msgstr "Cuenta:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:106
+msgid "Total account:"
+msgstr "Total de la cuenta:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_list_report_html.mako:120
+msgid "Total:"
+msgstr "Total:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:15
+msgid "APPROVED:"
+msgstr "APROBADO:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:17
+msgid "Manager ________________________"
+msgstr "Gerente ________________________"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:19
+msgid "Date: ________________________"
+msgstr "Fecha: ________________________"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:22
+msgid "ACT"
+msgstr "ACT"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:23
+msgid "For the adoption and implementation of fixed assets in service."
+msgstr ""
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:26
+msgid "Brief description of goods:"
+msgstr "Breve descripción de los bienes:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:32
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:33
+msgid "Acquisition value"
+msgstr "Valor de adquisición"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:34
+msgid "The provision of depreciation deduction (%) / month"
+msgstr "Provisión de depreciación (%) / mes"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:35
+msgid "Commissioning (date)"
+msgstr "Adquisición (fecha)"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:36
+msgid "Full amortization period (months)"
+msgstr "Total de periodos para amortizar (meses)"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:37
+msgid "Comments"
+msgstr "Comentarios"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:54
+msgid "Views of the participants in the following composition:"
+msgstr ""
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:59
+msgid "Chairman of the committee"
+msgstr "Director de la comisión:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:62
+msgid "Committee Members:"
+msgstr "Miembros de la comisión:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:77
+msgid "Places of participants was the following:"
+msgstr "Los lugares de los participantes fueron los siguientes:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:83
+msgid "The material value delivery - at the time of acceptance"
+msgstr "El valor del material entregado - al momoento de ser aceptado"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:87
+msgid "Value of the material and technical provision"
+msgstr ""
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:91
+msgid "Run-in and do not need; directly:"
+msgstr ""
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:95
+msgid "Conclusion:"
+msgstr "Conclusión:"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:99
+msgid "Added value of materials"
+msgstr "Valor de los materiales añadidos"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_confirmation_report_html.mako:117
+msgid "Accounting mention of the introduction of the object (the movement)"
+msgstr ""
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:16
+msgid "Asset Tracking "
+msgstr "Registro de Activos"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:22
+msgid "Asset Name"
+msgstr "Nombre del Activo"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:23
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:25
+msgid "Depreciation Code"
+msgstr "Código de Depreciación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:34
+msgid "Location"
+msgstr "Ubicación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:35
+msgid "Number"
+msgstr "Número"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:42
+msgid "Depreciation rate for the year, %"
+msgstr "Tasa de depreciación por año, %"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:46
+msgid "Date of Commissioning"
+msgstr "Fecha de adquisición"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:48
+msgid "Initial value"
+msgstr "Valor inicial"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:50
+msgid "Amount"
+msgstr "Importe"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:54
+msgid "Useful life (years)"
+msgstr "Vida útil (años)"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:56
+msgid "Clearance (scrap) value"
+msgstr "Valor de liquidación (chatarra)"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:58
+msgid "Same month, %"
+msgstr "Este mes, %"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:62
+msgid "Same months"
+msgstr "Estos meses"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:64
+msgid "Within the month following the depreciation"
+msgstr "El mes siguiente a la depreciación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:66
+msgid "Amount"
+msgstr "Importe"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:72
+msgid "Comments "
+msgstr "Comentarios "
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:75
+msgid "Date off"
+msgstr "Fecha de baja"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:81
+msgid "and motivation"
+msgstr "y motivos"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:86
+msgid "basic."
+msgstr "básicos."
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:97
+msgid "Date"
+msgstr "Fecha"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:98
+msgid "Economic description of the transaction and the document number"
+msgstr "Descripción económica de la transacción y número de documento"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:99
+msgid "Cost of acquisition or production"
+msgstr "Costo de adquisición o producción"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:100
+msgid "Rehabilitation"
+msgstr "Rehabilitación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:101
+msgid "Revaluation"
+msgstr "Revaloración"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:102
+msgid "Carrying value"
+msgstr "Valor en libros"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:103
+msgid "Depreciation"
+msgstr "Drepreciación"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:104
+msgid "Residual value"
+msgstr "Valor residual"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:107
+msgid "increase"
+msgstr "incremento"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:108
+msgid "decrease"
+msgstr "decremento"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:114
+msgid "Asset commissioning"
+msgstr "Adquisición de activos"
+
+#. module: l10n_lv_account_asset
+#: report:addons/l10n_lv_account_asset/report/account_asset_card_report_html.mako:127
+msgid "Depreciation"
+msgstr ""
+
+#~ msgid "Pamatlīdzekļu apgrozījums "
+#~ msgstr "Valoración de activos fijos"
+
+#~ msgid "no "
+#~ msgstr "desde"
+
+#~ msgid "līdz "
+#~ msgstr "hasta"
+
+#~ msgid "Operācija"
+#~ msgstr "Operación"
+
+#~ msgid "Uzskaites vērtība"
+#~ msgstr "Valor en libros"
+
+#~ msgid "Nolietojums"
+#~ msgstr "Deprec"
+
+#~ msgid "Atlikusī vērtība"
+#~ msgstr "Valor residual"
+
+#~ msgid "Sākuma atlikumi"
+#~ msgstr "Saldo de apertura"
+
+#~ msgid "Iegāde"
+#~ msgstr "Compra"
+
+#~ msgid "Pamatlīdzekļu nolietojums"
+#~ msgstr "Depreciación de los activos fijos"
+
+#~ msgid "Likvidācija"
+#~ msgstr "Liquidación"
+
+#~ msgid "Kopā:"
+#~ msgstr "Total:"
+
+#~ msgid "Kopā:"
+#~ msgstr "Total:"
+
+#~ msgid "Kopējā izmaiņa:"
+#~ msgstr "Cambio total:"
+
+#~ msgid "Perioda beigās:"
+#~ msgstr "Periodo final:"
+
+#~ msgid "Kopā par atskaiti:"
+#~ msgstr "Suma para informe:"
+
+#~ msgid "Perioda sākumā:"
+#~ msgstr "Periodo final:"
+
+#~ msgid "Izmaiņa:"
+#~ msgstr "Cambio:"
+
+#~ msgid "Perioda beigās:"
+#~ msgstr "Periodo inicial:"
+
+#~ msgid "Pamatlīdzekļu saraksts "
+#~ msgstr "Lista de activos fijos"
+
+#~ msgid "uz "
+#~ msgstr "a"
+
+#~ msgid "Uzskaites vērtība"
+#~ msgstr "Valor en libros"
+
+#~ msgid "Nolietojums"
+#~ msgstr "Depreciación"
+
+#~ msgid "Atlikusī vērtība"
+#~ msgstr "Valor residual"
+
+#~ msgid "Kopā kontā:"
+#~ msgstr "Suma total:"
+
+#~ msgid "Konts:"
+#~ msgstr "Cuenta:"
+
+#~ msgid "Kopā kontā:"
+#~ msgstr "Suma total:"
+
+#~ msgid "Kopā pavisam:"
+#~ msgstr "Total:"
+
+#~ msgid "APSTIPRINU:"
+#~ msgstr "Aprovado:"
+
+#~ msgid "Vadītājs ________________________"
+#~ msgstr "Gerente ________________________"
+
+#~ msgid "Datums: ________________________"
+#~ msgstr "Responsable: ________________________"
+
+#~ msgid "AKTS"
+#~ msgstr "ACT"
+
+#~ msgid "Par pamatlīdzekļu pieņemšanu un ieviešanu ekspluatācijā."
+#~ msgstr "Para la puesta en funcionamiento de los siguientes activos fijos."
+
+#~ msgid "Materiālās vērtības īss raksturojums:"
+#~ msgstr "Breve descripción de los bienes"
+
+#~ msgid "Nosaukums"
+#~ msgstr "Nombre"
+
+#~ msgid "Iegādes vērtība"
+#~ msgstr "Valor de adquisición"
+
+#~ msgid "Nolietojuma atskaitījuma norma gadā (%) / (Ls) mēnesī"
+#~ msgstr "Porcentaje de depreciación anual (%) / mes"
+
+#~ msgid "Ieviešana ekspluatācijā (datums)"
+#~ msgstr "Puesta en servicio (fecha)"
+
+#~ msgid "Pilna nolietojuma termiņš (mēnešos)"
+#~ msgstr "Periodo de amortización (meses)"
+
+#~ msgid "Piezīmes"
+#~ msgstr "Comentarios"
+
+#~ msgid "Apskates dalībnieku sekojošā sastāvā:"
+#~ msgstr "Puntos de vista de los participantes en la reunión:"
+
+#~ msgid "Komisijas priekšsēdētājs"
+#~ msgstr "Presidente de la comisión"
+
+#~ msgid "Komisijas locekļi:"
+#~ msgstr "Miembros de la comisión:"
+
+#~ msgid "Materiālā vērtība pieņemšanas - nodošanas brīdī atrodas"
+#~ msgstr "La fecha de entrega recepción"
+
+#~ msgid "Materiālā vērtība tehniskiem noteikumiem atbilst"
+#~ msgstr "El valor material de las provisiones técnicas se corresponden"
+
+#~ msgid "Piestrāde ir vai nav vajadzīga; kas tieši:"
+#~ msgstr "Se necesita:"
+
+#~ msgid "Apskates dalībnieku slēdziens:"
+#~ msgstr "Conclusión de los participantes:"
+
+#~ msgid "Materiālās vērtības papildinājumi"
+#~ msgstr "Valor agregado de material"
+
+#~ msgid "Grāmatvedības atzīme par objekta ieviešanu (pārvietošanu)"
+#~ msgstr "Movimiento contable de la compra del activo."
+
+#~ msgid "PAMATLĪDZEKĻU UZSKAITES KARTĪTE NR. "
+#~ msgstr "Seguimiento de activos."
+
+#~ msgid "Pamatlīdzekļu objekta nosaukums"
+#~ msgstr "Nombre del activo"
+
+#~ msgid "Kods"
+#~ msgstr "Código"
+
+#~ msgid "Nolietojuma normas kods"
+#~ msgstr "Código de la deprecación"
+
+#~ msgid "Atrašanās vieta"
+#~ msgstr "Ubicación"
+
+#~ msgid "Skaits"
+#~ msgstr "Número"
+
+#~ msgid "Amortizācijas likme gadā, %"
+#~ msgstr "Tasa de depreciación por año, %"
+
+#~ msgid "Nodošanas ekspluatācijā datums"
+#~ msgstr "Fecha de entrada en servicio"
+
+#~ msgid "Sākotnējā uzskaites vērtība (Ls)"
+#~ msgstr "Valor inicial"
+
+#~ msgid "summā (Ls)"
+#~ msgstr "Cantidad"
+
+#~ msgid "Derīgās lietošanas laiks (gados)"
+#~ msgstr "Vida útil (años)"
+
+#~ msgid "Likvidācijas (lūžņu) vērtība (Ls)"
+#~ msgstr "Valor de liquidación"
+
+#~ msgid "Tas pats mēnesī, %"
+#~ msgstr "Mismo mes, %"
+
+#~ msgid "Tas pats mēnešos"
+#~ msgstr "Mismos meses"
+
+#~ msgid "Viena mēneša nolietojuma summa (Ls)"
+#~ msgstr "Depreciación en el próximo mes"
+
+#~ msgid "summā (Ls)"
+#~ msgstr "Cantidad"
+
+#~ msgid "Piezīmes "
+#~ msgstr "Comentarios "
+
+#~ msgid "Izslēgšanas datums"
+#~ msgstr "Fecha de venta"
+
+#~ msgid "un pamatojums"
+#~ msgstr "motivos"
+
+#~ msgid "pamat."
+#~ msgstr "básico"
+
+#~ msgid "Datums"
+#~ msgstr "Fecha"
+
+#~ msgid "Saimnieciskā darījuma apraksts un dokumenta numurs un datums"
+#~ msgstr "Descripción económica de la transacción y número de documento y fecha"
+
+#~ msgid "Iegādes vai ražošanas pašizmaksa"
+#~ msgstr "Costo de adquisición o producción"
+
+#~ msgid "Rekonstrukcija"
+#~ msgstr "Rehabilitación"
+
+#~ msgid "Pārvērtēšana"
+#~ msgstr "Revaluación"
+
+#~ msgid "Uzskaites vērtība"
+#~ msgstr "Valor en libros"
+
+#~ msgid "Nolietojums"
+#~ msgstr "Depreciación"
+
+#~ msgid "Atlikusī vērtība"
+#~ msgstr "Valor residual"
+
+#~ msgid "pieaugums"
+#~ msgstr "aumento"
+
+#~ msgid "samazinājums"
+#~ msgstr "disminución"
+
+#~ msgid "Pamatlīdzekļa pieņemšana ekspluatācijā"
+#~ msgstr "Adquisición de activos"
+
+#~ msgid "Nolietojums"
+#~ msgstr "Depreciación"
