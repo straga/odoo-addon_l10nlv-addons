@@ -22,10 +22,10 @@
 #
 ##############################################################################
 
-import tools
-from osv import  osv, fields
+import openerp.tools
+from openerp.osv import  osv, fields
 import os
-from tools.translate import _
+from openerp.tools.translate import _
 
 class wizard_fidavista_config(osv.osv_memory):
 

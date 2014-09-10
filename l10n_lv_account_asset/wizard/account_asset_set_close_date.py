@@ -26,9 +26,9 @@ import time
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-from osv import osv, fields
+from openerp.osv import osv, fields
 
-from tools.translate import _
+from openerp.tools.translate import _
 
 class account_asset_set_close_date(osv.osv_memory):
     _name = "account.asset.set.close.date"

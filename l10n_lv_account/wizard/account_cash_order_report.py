@@ -22,7 +22,7 @@
 #
 ##############################################################################
 
-from osv import fields, osv
+from openerp.osv import fields, osv
 
 class account_cash_order_report(osv.osv_memory):
     _name = "account.cash.order.report"

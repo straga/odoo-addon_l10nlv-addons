@@ -23,7 +23,7 @@
 ##############################################################################
 
 from openerp.osv import fields, osv
-from tools.translate import _
+from openerp.tools.translate import _
 
 class res_partner_bank(osv.osv):
     _inherit = "res.partner.bank"

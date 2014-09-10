@@ -22,12 +22,12 @@
 #
 ##############################################################################
 
-from report import report_sxw
-from osv import osv
+from openerp.report import report_sxw
+from openerp.osv import osv
 
 import os
-import addons
-from tools.translate import _
+import openerp.addons
+from openerp.tools.translate import _
 from datetime import datetime
 
 

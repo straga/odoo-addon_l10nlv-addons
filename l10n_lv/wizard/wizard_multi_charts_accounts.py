@@ -22,11 +22,14 @@
 #
 ##############################################################################
 
-import tools
-from osv import  osv, fields
-import addons
-import os
-from tools.translate import _
+
+from openerp.tools.translate import _
+
+from openerp.osv import  osv, fields
+import openerp.addons
+import openerp.osv
+
+#from tools.translate import _
 
 
 class wizard_multi_charts_accounts(osv.osv_memory):

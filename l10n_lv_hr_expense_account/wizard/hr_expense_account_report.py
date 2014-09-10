@@ -22,9 +22,9 @@
 #
 ##############################################################################
 
-from osv import fields, osv
-import pooler
-from tools.translate import _
+from openerp.osv import fields, osv
+import openerp.pooler
+from openerp.tools.translate import _
 
 class hr_expense_account_report(osv.osv_memory):
     _name = "hr.expense.account.report"

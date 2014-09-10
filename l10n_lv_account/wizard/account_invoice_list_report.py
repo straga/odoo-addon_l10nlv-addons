@@ -22,8 +22,8 @@
 #
 ##############################################################################
 
-from osv import fields, osv
-import pooler
+from openerp.osv import fields, osv
+import openerp.pooler
 
 class account_invoice_list_report(osv.osv_memory):
     _name = "account.invoice.list.report"

@@ -28,7 +28,7 @@ from openerp.osv import fields, osv
 from openerp import tools
 _logger = logging.getLogger(__name__)
 import time
-from tools.translate import _
+from openerp.tools.translate import _
 
 class hr_contract(osv.osv):
     _name = 'hr.contract'

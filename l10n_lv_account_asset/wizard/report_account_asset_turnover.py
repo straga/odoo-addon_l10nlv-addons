@@ -22,14 +22,14 @@
 #
 ##############################################################################
 
-from osv import fields, osv
-import pooler
+from openerp.osv import fields, osv
+import openerp.pooler
 
 import time
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-from tools.translate import _
+from openerp.tools.translate import _
 
 class account_asset_turnover_report(osv.osv_memory):
     _name = "account.asset.turnover.report"

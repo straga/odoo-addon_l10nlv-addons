@@ -24,10 +24,10 @@
 
 import math
 
-from osv import fields,osv
-import tools
-import pooler
-from tools.translate import _
+from openerp.osv import fields,osv
+import openerp.tools
+import openerp.pooler
+from openerp.tools.translate import _
 
 class res_partner_address_type(osv.osv):
     _description ='Partner Address Types'

@@ -24,8 +24,8 @@
 
 import time
 from datetime import datetime
-from report import report_sxw
-from osv import osv
+from openerp.report import report_sxw
+from openerp.osv import osv
 
 class account_asset_card_report(report_sxw.rml_parse):
     def __init__(self, cr, uid, name, context):

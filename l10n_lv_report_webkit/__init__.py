@@ -32,7 +32,8 @@
 import verbose_nums
 
 import verbose_nums
-from report_webkit import report_helper
+from openerp.addons.report_webkit import report_helper
+#from report_webkit import report_helper
 from types import MethodType
 
 
